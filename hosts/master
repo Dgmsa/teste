@@ -1,0 +1,2 @@
+[master-node]
+cpro27569 ansible_ssh_host=186.202.185.128 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass=xxxxxx

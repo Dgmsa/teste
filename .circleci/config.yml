@@ -1,0 +1,10 @@
+ stages:
+      deployment:
+        workDir: /home/ubuntu/my-project
+        steps:
+          - type: deploy
+              name: "Deploy to production"
+            command: |
+              if [ "${CIRCLE_BRANCH}" == "master" ];
+                then ansible-playbook -i master-node subirapache.yml;
+              fi

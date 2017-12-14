@@ -1,0 +1,2 @@
+[master-node]
+root ansible_ssh_host=174.129.101.180 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass=Loca@1020
